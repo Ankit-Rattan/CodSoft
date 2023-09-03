@@ -1,0 +1,74 @@
+body{
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    background-image: url("images/neon-bg.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar */
+
+nav{
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(225, 225, 225);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(98, 98, 98, 0.505);
+}
+
+nav h3{
+    margin : 2px 2px 2px 2px;
+    margin-left: 2rem;
+    font-size:xx-large;
+    text-shadow: 1px 1px 1px rgb(125, 125, 125);
+}
+
+
+/* About Section  */
+
+.about{
+    border: 0px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.135);
+    display: flex;
+    gap:20%;
+    justify-content: center;
+    
+}
+
+.image img{
+    border-radius: 50%;
+    max-width: 25rem;
+    justify-content: center;
+    justify-items: center;
+    margin: 7%;
+}
+
+.bio{
+    border: 0px solid white;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.635);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 1rem 1rem 1rem black;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    transition-duration: 1s;
+    
+}
+
+
+.bio:hover{
+    color: white;
+    background-color: rgba(132, 132, 132, 0.808);
+    /* box-shadow: 1rem 1rem 1rem white; */
+    transition-duration: 1s;
+}
+
+
+/* Experience */
+
+.exper{
+    border: 0px solid rgba(227, 227, 227, 0.326);    
+}
