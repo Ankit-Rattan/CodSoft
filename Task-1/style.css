@@ -85,7 +85,7 @@ nav h3{
     justify-content: center;   
 }
 
-.image img{
+.about .image img{
     /* box-shadow: 2px 5px 5px rg b(87, 87, 87); */
     border-radius: 50%;
     transition-duration: 0.5s;
@@ -243,6 +243,28 @@ nav h3{
 
 /* Project Section */
 .project{
-        
+      justify-content: center;  
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
 }
 
+.prj-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.project .images img{
+    width: 35rem;
+    height: 23rem;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.ard img{
+    width: 20rem;
+    height: 30rem;
+}
