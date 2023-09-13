@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     /* background-image: url("images/blob-scatter-haikei.png"); */
     background-repeat: no-repeat;
@@ -176,7 +180,7 @@ nav h3{
 .skills:hover{
     background-color:rgba(129, 213, 255, 0.502);
     /* box-shadow: 2px 2px 2px white; */
-    transition-duration: .5s;
+    transition-duration:.5s;
 
 }
 .skills p:hover{
@@ -187,16 +191,63 @@ nav h3{
 
 .exper{
     text-align: center;  
-    background-image: url("images/blurry-gradient-haikei.png");
     background-repeat: no-repeat;
+    background-image: url("images/stacked-waves-haikei-one.png");
     background-position: center;
     background-size: cover;  
 }
+
+@keyframes outlineblink {
+    0% {
+        text-shadow: 1px 1px 1px rgb(6, 0, 55);
+
+    }
+    10%{
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+    }
+    11% {
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.692);
+    }
+    12% {
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+
+    }
+    20% {
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.692);
+    }
+    21% {
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+    }
+    22% {
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+
+    }
+    90% {
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+
+    }
+    91% {
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.692);
+    }
+    92% {
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+
+    }
+    100% {
+        text-shadow: 2px 2px 2px rgb(6, 0, 55);
+    }
+  }
 .exper h1{
     margin: auto;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
+    color: rgba(255, 255, 255, 0.692);
+    /* text-shadow: 2px 2px 2px black; */
+    animation-name: outlineblink;
+    animation-duration: 3s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
 }
 
 .common-exp{
@@ -242,13 +293,31 @@ nav h3{
 
 
 /* Project Section */
+.main-prj{
+    background-image: url("images/stacked-waves-haikei-opp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+}
+.main-prj h1{
+    margin: auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.692);
+    /* text-shadow: 2px 2px 2px black; */
+    animation-name: outlineblink;
+    animation-duration: 3s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+}
 .project{
       justify-content: center;  
       display: flex;
       flex-wrap: wrap;
       gap: 3rem;
 }
-
 .prj-div{
     display: flex;
     flex-direction: column;
