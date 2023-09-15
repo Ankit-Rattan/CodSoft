@@ -194,7 +194,7 @@ nav h3{
 
 .exper{
     text-align: center;  
-    background-color: rgba(0, 45, 68, 0.836);
+    background-color: rgba(244, 173, 170, 0.584);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
@@ -205,8 +205,8 @@ nav h3{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
-    color: rgba(245, 245, 245, 0.621);
-    text-shadow: 1px 1px 1px rgb(219, 255, 157);
+    color: rgb(0, 45, 68);
+    /* text-shadow: 1px 1px 1px rgb(219, 255, 157); */
 
 }
 
@@ -219,18 +219,21 @@ nav h3{
 
 }
 .exp-side h3{
-    color: whitesmoke;
+    color: rgba(0, 45, 68, 0.824);
     font-size:x-large;
 }
 .common-exp span{
-    color: rgb(195, 198, 255);
+    color: rgb(0, 45, 68);
+    font-weight: bolder;
 
 }
 
 .common-exp img{
     border: 1px solid black;
+    border-radius: 5px;
     max-width: 20rem;
-    max-width: 20rem;     
+    max-width: 20rem;   
+    box-shadow: 1px 2px 2px 2px rgb(122, 122, 122);  
 }
 
 
@@ -383,4 +386,20 @@ nav h3{
 .hashnode a:hover{
     color: rgb(2, 2, 86);
     transition-duration: .5s;
+}
+
+
+/* Blogs */
+
+/* Resume */
+.resume{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    margin: 1rem 1rem 1rem 1rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.resume a:hover{
+    color:cadetblue;
 }
