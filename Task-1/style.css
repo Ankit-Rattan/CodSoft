@@ -191,9 +191,9 @@ nav h3{
 
 .exper{
     text-align: center;  
+    background-image: url("images/dark-rain-bg.jpg");
     background-repeat: no-repeat;
-    background-image: url("images/stacked-waves-haikei-one.png");
-    background-position: center;
+    background-position:bottom;
     background-size: cover;  
 }
 
@@ -345,7 +345,7 @@ nav h3{
     background-color: rgba(91, 91, 91, 0.224);
     justify-content: center;
     text-align: center;
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .inner-contact{
@@ -356,7 +356,7 @@ nav h3{
 }
 
 .email-contact{
-    margin-left: 3%;
+    margin-left: 2%;
     transition-duration: .5s;
 }
 .email-contact svg:hover{
