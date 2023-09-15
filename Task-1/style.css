@@ -12,10 +12,12 @@ body{
 }
 .upper{
     background-color: rgb(0, 45, 68);
+
 }
 /* Navbar */
 
 nav{
+    
     border: 0px solid rgba(165, 165, 165, 0);
     /* background-color: rgb(225, 225, 225); */
     border-radius: 5px;
@@ -86,7 +88,8 @@ nav h3{
     display: flex;
     gap:10%;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center; 
+
 }
 
 .about .image img{
@@ -137,6 +140,7 @@ nav h3{
 /* Skill Section */
 .skill{
     background-color: rgb(0, 45, 68);
+    z-index: 1;
     
 }
 .inside-skill{
@@ -181,7 +185,6 @@ nav h3{
     background-color:rgba(129, 213, 255, 0.502);
     /* box-shadow: 2px 2px 2px white; */
     transition-duration:.5s;
-
 }
 .skills p:hover{
     color: azure;
@@ -191,63 +194,20 @@ nav h3{
 
 .exper{
     text-align: center;  
-    background-image: url("images/dark-rain-bg.jpg");
+    background-color: rgba(0, 45, 68, 0.836);
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: center;
     background-size: cover;  
 }
 
-@keyframes outlineblink {
-    0% {
-        text-shadow: 1px 1px 1px rgb(6, 0, 55);
-
-    }
-    10%{
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-    }
-    11% {
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.692);
-    }
-    12% {
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-
-    }
-    20% {
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.692);
-    }
-    21% {
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-    }
-    22% {
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-
-    }
-    90% {
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-
-    }
-    91% {
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.692);
-    }
-    92% {
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-
-    }
-    100% {
-        text-shadow: 2px 2px 2px rgb(6, 0, 55);
-    }
-  }
 .exper h1{
     margin: auto;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
-    color: rgba(255, 255, 255, 0.692);
-    /* text-shadow: 2px 2px 2px black; */
-    animation-name: outlineblink;
-    animation-duration: 3s;
-    /* animation-timing-function: linear; */
-    animation-iteration-count: infinite;
+    color: rgba(245, 245, 245, 0.621);
+    text-shadow: 1px 1px 1px rgb(219, 255, 157);
+
 }
 
 .common-exp{
@@ -258,8 +218,13 @@ nav h3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+.exp-side h3{
+    color: whitesmoke;
+    font-size:x-large;
+}
 .common-exp span{
-    
+    color: rgb(195, 198, 255);
+
 }
 
 .common-exp img{
@@ -294,7 +259,7 @@ nav h3{
 
 /* Project Section */
 .main-prj{
-    background-image: url("images/stacked-waves-haikei-opp.png");
+    background-color: rgb(0, 45, 68);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
