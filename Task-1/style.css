@@ -282,21 +282,41 @@ nav h3{
       display: flex;
       flex-wrap: wrap;
       gap: 3rem;
+      color: aliceblue;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .prj-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    transition-duration: .5s;
 
 }
 
+.prj-div a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.prj-div a:hover{
+    color: beige;
+}
+.prj-div img:hover{
+    opacity:50%;
+    transition-duration: .5s;
+}
 .project .images img{
     width: 35rem;
     height: 23rem;
     border: 1px solid black;
     border-radius: 5px;
 
+}
+.ard-park{
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
 }
 .ard img{
     width: 20rem;
