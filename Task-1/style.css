@@ -337,3 +337,65 @@ nav h3{
     width: 20rem;
     height: 30rem;
 }
+
+/* Resume Section */
+
+/* Contact Section */
+.contact{
+    background-color: rgba(91, 91, 91, 0.224);
+    justify-content: center;
+    text-align: center;
+    font-family:cursive;
+}
+
+.inner-contact{
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.email-contact{
+    margin-left: 3%;
+    transition-duration: .5s;
+}
+.email-contact svg:hover{
+    color: rgb(208, 31, 31);
+}
+
+.work-contact{
+    margin-right: 5%;
+}
+.social-line{
+    justify-content: center;
+    display: flex;
+    gap: 1rem;   
+}
+
+.social-line a{
+    color: black;
+    transition-duration: .5s;
+}
+
+.linkedin a:hover{
+    color: blue;
+    transition-duration: .5s;
+}
+.twitter a:hover{
+    color: grey;
+    transition-duration: .5s;
+}
+.quora a:hover{
+    color: red;
+    transition-duration: .5s;
+}
+.medium a:hover{
+    background-color: white;
+    color: rgb(43, 43, 43);
+    border-radius: 50%;
+    transition-duration: .5s;
+}
+.hashnode a:hover{
+    color: rgb(2, 2, 86);
+    transition-duration: .5s;
+}
