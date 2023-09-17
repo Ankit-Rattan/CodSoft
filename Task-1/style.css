@@ -3,15 +3,18 @@
     padding: 0;
 }
 body{
-    /* background-image: url("images/blob-scatter-haikei.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:top;
-    /* background-color: rgb(244, 255, 219); */
-
+    background-color: aliceblue;
 }
+
 .upper{
-    background-color: rgb(0, 45, 68);
+    /* background-color: rgb(0, 4, 43); */
+    background-image: url("images/neon-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: sticky;
+    top: 0%;
+    z-index: -1;
 
 }
 /* Navbar */
@@ -22,6 +25,7 @@ nav{
     /* background-color: rgb(225, 225, 225); */
     border-radius: 5px;
     /* box-shadow: 1px 1px 1px rgba(98, 98, 98, 0.505); */
+
 }
 
 @keyframes nameblink {
@@ -88,8 +92,13 @@ nav h3{
     display: flex;
     gap:10%;
     flex-wrap: wrap;
-    justify-content: center; 
-
+    justify-content: center;
+    margin: auto; 
+    margin-bottom: 2.5rem;
+    margin-top: 4rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .about .image img{
@@ -101,11 +110,11 @@ nav h3{
     justify-items: center;
     margin: 7%;
     margin-left: 40%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
-.image img:hover{
-    box-shadow:5px 7px 7px 7px rgb(69, 69, 69);
-    transition-duration: 0.5s;
-}
+
 
 .bio{
     /* border: 0px solid white; */
@@ -113,22 +122,29 @@ nav h3{
     border-radius: 48%;
     margin: auto;
     transition-duration: .5s;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .bio p{
-    color: rgb(195, 198, 255);
-    text-shadow: 1px 1px 1px black;
+    color: rgb(254, 232, 231);
+    text-shadow: 1px 2px 2px rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
     margin: 1rem;
     font-size:xx-large;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .bio p b{
     font-style:normal;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(195, 198, 255);
+    color: rgb(254, 232, 231);
     font-size:7rem;
+    text-shadow: 1px 5px 5px rgb(255, 248, 211);
 }
 
 /* .bio:hover{
@@ -138,9 +154,10 @@ nav h3{
 
 /* About Me */
 .abt-me{
-    background-color: rgba(250, 201, 199, 0.584);
+    background-color: rgb(250, 201, 199);
     justify-content: center;
     text-align: center;
+    z-index: 100;
 }
 .inner-abt{
     text-align: justify;
@@ -170,12 +187,13 @@ nav h3{
 /* Skill Section */
 .skill{
     background-color: rgb(0, 45, 68);
-    z-index: 1;
+    z-index: 100;
     
 }
 .inside-skill{
     
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -226,11 +244,12 @@ nav h3{
 
 .exper{
     text-align: center;  
-    background-color: rgba(250, 201, 199, 0.584);
+    background-color: rgb(250, 201, 199);
     /* background-color: rgba(244, 173, 170, 0.584); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
+    z-index: 2;
 }
 
 .exper h1{
@@ -266,11 +285,17 @@ nav h3{
 .common-exp img{
     border: 1px solid black;
     border-radius: 5px;
-    max-width: 20rem;
-    max-width: 20rem;   
-    box-shadow: 1px 2px 2px 2px rgb(122, 122, 122);  
+    max-width: 15rem;
+    max-width: 15rem;   
+    transition-duration: 1s;    
 }
 
+.common-exp img:hover{
+    max-width: 20rem;
+    max-width: 20rem;   
+    box-shadow:  5px 5px 5px rgb(255, 255, 255);  
+    transition-duration: 1s;    
+}
 
 .microsoft{
     margin-left: 0px;
@@ -361,7 +386,6 @@ nav h3{
     height: 30rem;
 }
 
-/* Blogs */
 
 /* Programming Link */
 .cp{
@@ -369,6 +393,7 @@ nav h3{
     flex-wrap: wrap;
     justify-content: space-around;
     transition-duration: .5s;
+    background-color: aliceblue;
 }
 .cp:hover{
     background-color: rgb(227, 227, 227);
@@ -398,10 +423,13 @@ nav h3{
     margin-top: 1rem;
 }
 /* Resume */
+.outer-res{    
+    background-color: aliceblue;
+}
 .resume{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:x-large;
-    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     justify-content: center;
     text-align: center;
 
@@ -479,8 +507,9 @@ nav h3{
 
 /* Footer */
 footer{
+    background-color: aliceblue;
     justify-content: center;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
