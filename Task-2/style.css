@@ -1,3 +1,9 @@
+body{
+    background-image: url("images/main-sec-one-bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar{
     
 }
@@ -8,5 +14,8 @@
     gap: 5rem;
 }
 .navbar ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(222, 253, 255);
     list-style:none;
+    font-size: larger;
 }
