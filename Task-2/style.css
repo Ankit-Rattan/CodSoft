@@ -19,3 +19,28 @@ body{
     list-style:none;
     font-size: larger;
 }
+
+/* Section One */
+ .sec-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .text{
+    margin-top: 3rem;
+    border: 0px solid white;
+    padding: 3rem;
+    border-radius: 50px 10px;
+    background-color:rgba(245, 245, 245, 0.575) ;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.719);
+}
+
+ .text h1{
+    font-size: 5rem;
+}
+.text p{
+    margin-top: 0%;
+     font-size:larger;
+ }
+
