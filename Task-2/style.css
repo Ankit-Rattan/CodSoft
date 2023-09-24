@@ -29,11 +29,12 @@ body{
 
  .text{
     margin-top: 3rem;
+    margin-left: 3rem;
     border: 0px solid white;
-    padding: 3rem;
+    padding: 5rem;
     border-radius: 50px 10px;
-    background-color:rgba(245, 245, 245, 0.575) ;
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.719);
+    background-color:rgba(245, 245, 245, 0.308) ;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.276);
 }
 
  .text h1{
