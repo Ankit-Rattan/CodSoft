@@ -27,11 +27,17 @@ body{
     justify-content: space-between;
  }
 
+<<<<<<< HEAD
  .text-one{
     margin: auto;
     justify-content: center;
     text-align: center;
     margin-top: 5rem;
+=======
+ .text{
+    margin-top: 3rem;
+    margin-left: 3rem;
+>>>>>>> 259bbcc25d6375ec518ab69dbff7bb79140ebf75
     border: 0px solid white;
     padding: 5rem;
     border-radius: 50px 10px;
