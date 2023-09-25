@@ -4,9 +4,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.navbar{
+/* .navbar{
     
-}
+} */
 .navbar ul{
     justify-content: center;
     display: flex;
@@ -35,14 +35,9 @@ body{
     margin-top: 5rem;
  }   
 
- .text{
-    margin-top: 3rem;
-    margin-left: 3rem;
-    border: 0px solid white;
-    padding: 5rem;
-    border-radius: 50px 10px;
-    background-color:rgba(245, 245, 245, 0.308) ;
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.276);
+ .text-one{
+    margin: auto;
+
 }
 
  .text-one h1{
@@ -61,6 +56,15 @@ body{
     border: 0px ;
     border-radius: 5px;
     padding: .5rem;
+    transition-duration: .5s;
+}
+.text-one button:hover{
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.313) ;
+    border-color: azure;
+    transition-duration: .5s;
+
+
 }
 
 /* About Us */
@@ -77,4 +81,33 @@ body{
 .about-us{
     margin: auto;
     text-align: center;
+}
+.about-us .text-abt{
+    text-align: justify;
+    width: 40rem;
+    margin-left: 3%;
+    
+}
+
+/* Blogs */
+.sec-three{
+
+}
+
+.sec-three h1{
+    font-size: 3rem;
+}
+
+.blog{
+
+}
+.box{
+    border: 0px solid bisque;
+    background-color: rgba(212, 255, 255, 0.525);
+    width: 15rem;
+    height: 5rem;
+}
+.box img{
+    width: 10rem;
+    align-items: center;
 }
