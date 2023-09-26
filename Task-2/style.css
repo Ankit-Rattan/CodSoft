@@ -92,19 +92,39 @@ body{
 
 .service{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+.outer-ser  h1{
+    text-align: center;
+    font-size:3rem;
 }
 
 .box-ser{
     display: flex;
     flex-direction: column;
-
+    flex-wrap: wrap;
 }
 
 .up, .down{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
-    
+    gap: 10rem;
+
+}
+.txt-ser{
+    width: 30rem;
+}
+
+.img-box{
+    margin: auto;
+}
+.img-box img{
+    margin: auto;
+    width: 40rem;
+    border-color:bisque;
 }
 
 /* Blogs */
