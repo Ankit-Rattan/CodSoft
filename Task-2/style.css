@@ -96,16 +96,24 @@ body{
 
 .sec-three h1{
     font-size: 3rem;
+    text-align: center;
 }
 
 .blog{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .box{
+    justify-content: center;
+    text-align: center;
     border: 0px solid bisque;
     background-color: rgba(212, 255, 255, 0.525);
+}
+.b-one, .b-two, .b-three, .b-four{
     width: 15rem;
-    height: 5rem;
+    height: 20rem;
+    
 }
 .box img{
     width: 10rem;
