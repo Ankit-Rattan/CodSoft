@@ -58,7 +58,7 @@ nav .logo{
 }
 .text-one p{
     text-align: center;
-    margin-top: 0%;
+    margin-top: -3%;
     font-size:larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -128,8 +128,13 @@ nav .logo{
     justify-content: space-around;
 }
 .outer-ser  h1{
+    color: azure;
+    text-shadow: 1px 1px 1px white;
+    border-color:yellow ;
+    text-shadow: 0 0 5px #b5b5b5, 0 0 10px #c0c0c07b, 0 0 10px #ffffff74, 0 0 10px rgb(102, 102, 214), 0 0 20px rgba(0, 0, 255, 0.269);
     text-align: center;
     font-size:3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .box-ser{
@@ -144,10 +149,17 @@ nav .logo{
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10rem;
-
+    border: 0px solid white;
+    background-color: rgba(255, 255, 255, 0.185);
+    margin-left: 5%;
 }
 .txt-ser{
-    width: 30rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 29rem;
+    color: azure;
 }
 
 .img-box{
@@ -156,7 +168,9 @@ nav .logo{
 .img-box img{
     margin: auto;
     width: 40rem;
-    border-color:bisque;
+    box-shadow: 2px 5px 5px 2px rgb(160, 241, 255);
+    border-radius: 50%;
+    opacity: 60%;
 }
 
 /* Blogs */
