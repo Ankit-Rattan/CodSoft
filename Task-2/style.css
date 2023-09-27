@@ -179,6 +179,7 @@ nav .logo{
 /* Blogs */
 .sec-three{
     background-color: rgb(0, 0, 0);
+    padding-bottom: 4rem;
 }
 
 .sec-three h1{
@@ -198,6 +199,7 @@ nav .logo{
     text-align: center;
     border: 0px solid bisque;
     background-color: rgba(216, 255, 255, 0.605);
+    border-radius: 5px;
 }
 .b-one, .b-two, .b-three, .b-four{
     width: 15rem;
@@ -209,6 +211,41 @@ nav .logo{
     align-items: center;
 }
 
+/* Footer */
+
 footer{
-    background-color: black;
+    background-color: rgba(221, 221, 221, 0.895);
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-logo{
+    /* margin: auto; */
+    margin-left: 8%;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+
+.quick-link{
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quick-link p:hover{
+    cursor: pointer;
+}
+.outer-connect{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    justify-content:center;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 5%;
+}
+
+.connect{
+    display: flex;
+    gap: 1rem;
 }
