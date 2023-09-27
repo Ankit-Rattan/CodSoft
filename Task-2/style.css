@@ -121,17 +121,20 @@ nav .logo{
     font-size: 1.1rem;
 }
 /* Services */
-
+.outer-ser{
+    justify-content: center;
+    align-items: center;
+}
 .service{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .outer-ser  h1{
-    color: azure;
-    text-shadow: 1px 1px 1px white;
+    color:rgba(255, 241, 223, 0.495);
+    /* text-shadow: 1px 1px 1px white; */
     border-color:yellow ;
-    text-shadow: 0 0 5px #b5b5b5, 0 0 10px #c0c0c07b, 0 0 10px #ffffff74, 0 0 10px rgb(102, 102, 214), 0 0 20px rgba(0, 0, 255, 0.269);
+    /* text-shadow: 0 0 5px #b5b5b5, 0 0 10px #c0c0c07b, 0 0 10px #ffffff74, 0 0 10px rgb(102, 102, 214), 0 0 20px rgba(0, 0, 255, 0.269); */
     text-align: center;
     font-size:3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -175,12 +178,14 @@ nav .logo{
 
 /* Blogs */
 .sec-three{
-
+    background-color: rgb(0, 0, 0);
 }
 
 .sec-three h1{
+    color:rgba(171, 171, 171, 0.47);
     font-size: 3rem;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .blog{
@@ -192,7 +197,7 @@ nav .logo{
     justify-content: center;
     text-align: center;
     border: 0px solid bisque;
-    background-color: rgba(212, 255, 255, 0.525);
+    background-color: rgba(216, 255, 255, 0.605);
 }
 .b-one, .b-two, .b-three, .b-four{
     width: 15rem;
@@ -202,4 +207,8 @@ nav .logo{
 .box img{
     width: 10rem;
     align-items: center;
+}
+
+footer{
+    background-color: black;
 }
