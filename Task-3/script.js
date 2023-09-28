@@ -4,7 +4,7 @@ keys.map( key => {
     key.addEventListener('click', (e) => {
         switch(e.target.innerText){
             case 'C':
-                screen.innerText = '';
+                screen.innerText = '0';
                 break;
             case '=':
                 try{
