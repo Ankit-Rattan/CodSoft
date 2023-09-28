@@ -46,6 +46,28 @@ The project was designed to meet all the requirements outlined in the internship
 
 ![btw](https://github.com/Ankit-Rattan/CodSoft/blob/main/Task-2/images/t-2-img.png)
 
+# Project: 2 
+Calculator for the Codsoft Project Internship! This Calculator showcases the project I completed during my internship, demonstrating my HTML, CSS, and JavaScript skills.
+
+## Project Overview
+
+The project was designed to meet all the requirements outlined in the internship document. It was created using only HTML, CSS and JS to develop a visually appealing and functional Calculator.
+
+![home](https://github.com/Ankit-Rattan/CodSoft/blob/main/Task-3/img/calci-main.png)
+
+## Technologies Used
+
+- **HTML** 
+- **CSS**
+- **JS**
+  
+## Features
+
+- Clean and well-structured layout.
+- Responsive design for optimal viewing on various devices (desktop and tablet).
+- Showcase of project work completed during the internship.
+- Contact information for inquiries and networking.
+
 ## Getting Started
 
 To view the projects, simply open the `index.html` file in a web browser of your choice. You can also host it on a web server for online access.
