@@ -1,0 +1,63 @@
+body{
+    background-color:cadetblue;
+    color: wheat;
+}
+section h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calci {
+    background-color: black;
+    color: wheat;
+    max-width: 25rem;
+    margin:auto;
+    transition-duration: 1s;
+    box-shadow: 0 0 1rem .5rem rgba(255, 255, 255, 0.566);
+}   
+.calci:hover{
+    box-shadow: 0 0 2rem 1rem rgba(223, 255, 200, 0.566);
+    transition-duration: 1s;
+}
+#screen {
+    height: 3rem;
+    padding: 16px 8px;
+    text-align:right;
+    font-size: 3rem;
+}
+.box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.key {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.key:hover {
+    background-color: #d5ff80;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+
+footer p{
+    text-align: center;
+}
