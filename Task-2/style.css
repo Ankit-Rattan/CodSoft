@@ -230,11 +230,17 @@ footer{
 }
 
 .quick-link{
+    text-align: center;
     font-size: 1.2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .quick-link p:hover{
     cursor: pointer;
+}
+
+.end{
+    justify-content: center;
+    text-align: center;
 }
 .outer-connect{
     font-size: 1.3rem;
@@ -248,4 +254,27 @@ footer{
 .connect{
     display: flex;
     gap: 1rem;
+}
+
+.facebook:hover{
+    cursor: pointer;
+    color: blue;
+    transition-duration: .5s;
+}
+.twitter:hover{
+    cursor: pointer;
+    color:rgb(26, 144, 176);
+    transition-duration: .5s;
+}
+.youtube:hover{
+    cursor: pointer;
+    color:red;
+    transition-duration: .5s;
+
+}
+.discord:hover{
+    cursor: pointer;
+    color:purple;
+    transition-duration: .5s;
+
 }
