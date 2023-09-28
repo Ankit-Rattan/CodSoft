@@ -1,8 +1,13 @@
 body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
     background-image: url("images/bg-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 /* .navbar{
     
@@ -124,6 +129,7 @@ nav .logo{
 .outer-ser{
     justify-content: center;
     align-items: center;
+    background-color: rgb(0, 19, 48);
 }
 .service{
     display: flex;
@@ -131,9 +137,8 @@ nav .logo{
     justify-content: space-around;
 }
 .outer-ser  h1{
-    color:rgba(255, 241, 223, 0.495);
+    color:rgba(255, 241, 223, 0.822);
     /* text-shadow: 1px 1px 1px white; */
-    border-color:yellow ;
     /* text-shadow: 0 0 5px #b5b5b5, 0 0 10px #c0c0c07b, 0 0 10px #ffffff74, 0 0 10px rgb(102, 102, 214), 0 0 20px rgba(0, 0, 255, 0.269); */
     text-align: center;
     font-size:3rem;
@@ -145,15 +150,32 @@ nav .logo{
     flex-direction: column;
     flex-wrap: wrap;
 }
-
+.img-ser{
+    justify-content: center;
+    margin: 0;
+}
+.img-ser img{
+    width: 30rem;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgb(68, 68, 68);
+    transition-duration: .5s;
+}
+.img-ser img:hover{
+    box-shadow: 10px 5px 5px rgb(68, 68, 68);
+    transition-duration: .5s;
+}
+#tech{
+    height: 17rem;
+}
 .up, .down{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10rem;
-    border: 0px solid white;
-    background-color: rgba(255, 255, 255, 0.185);
+    /* border: 0px solid white; */
+    border-radius: 5% 5% 0% 0%;
+    /* background-color: rgba(255, 255, 255, 0.185); */
     margin-left: 5%;
 }
 .txt-ser{
@@ -164,7 +186,12 @@ nav .logo{
     width: 29rem;
     color: azure;
 }
-
+.txt-ser p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: -8rem;
+}
 .img-box{
     margin: auto;
 }
@@ -178,12 +205,12 @@ nav .logo{
 
 /* Blogs */
 .sec-three{
-    background-color: rgb(0, 0, 0);
-    padding-bottom: 4rem;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 4%;
 }
 
 .sec-three h1{
-    color:rgba(171, 171, 171, 0.47);
+    color:rgba(0, 0, 0, 0.47);
     font-size: 3rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -198,17 +225,26 @@ nav .logo{
     justify-content: center;
     text-align: center;
     border: 0px solid bisque;
-    background-color: rgba(216, 255, 255, 0.605);
+    border-radius: 5%;        
+    background-color: rgba(62, 79, 79, 0.315);
     border-radius: 5px;
+    transition-duration: .5s;
+}
+.box:hover{
+    background-color: rgba(62, 79, 79, 0.123);
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.406);
+    transition-duration: .5s;
 }
 .b-one, .b-two, .b-three, .b-four{
-    width: 15rem;
-    height: 20rem;
-    
+    width: 17rem;
+    height: 22rem;
+    cursor: pointer;
 }
 .box img{
-    width: 10rem;
+    width: 17rem;
+    height: 13rem;
     align-items: center;
+    border-radius: 5%;        
 }
 
 /* Footer */
