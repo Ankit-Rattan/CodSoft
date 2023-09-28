@@ -37,7 +37,6 @@ The project was designed to meet all the requirements outlined in the internship
 - **HTML:** Used to structure the content of the Landing Page, creating a clean and organized layout.
 - **CSS:** Implemented to style the Landing Page, making it visually attractive and ensuring responsiveness across different devices.
   
-![main](https://github.com/Ankit-Rattan/CodSoft/blob/main/Task-1/images/bte-screenshot.png?raw=true)
 ## Features
 
 - Clean and well-structured layout.
