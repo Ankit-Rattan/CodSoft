@@ -129,7 +129,10 @@ nav .logo{
 .outer-ser{
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 19, 48);
+    /* background-color: rgb(0, 19, 48); */
+    background-image: url("images/blue-bg.jpg");
+    background-position: right;
+    opacity: 80%;
 }
 .service{
     display: flex;
@@ -205,52 +208,55 @@ nav .logo{
 
 /* Blogs */
 .sec-three{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     padding-bottom: 4%;
+    margin-top: 0%;
 }
 
 .sec-three h1{
-    color:rgba(0, 0, 0, 0.47);
+    color:rgba(232, 232, 232, 0.726);
     font-size: 3rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .blog{
+    background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 2rem;
 }
 .box{
     justify-content: center;
     text-align: center;
     border: 0px solid bisque;
     border-radius: 5%;        
-    background-color: rgba(62, 79, 79, 0.315);
+    background-color:blanchedalmond;
     border-radius: 5px;
     transition-duration: .5s;
 }
 .box:hover{
-    background-color: rgba(62, 79, 79, 0.123);
+    background-color: rgb(255, 255, 255);
     box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.406);
     transition-duration: .5s;
 }
 .b-one, .b-two, .b-three, .b-four{
-    width: 17rem;
+    width: 15rem;
     height: 22rem;
     cursor: pointer;
 }
 .box img{
-    width: 17rem;
+    width: 15rem;
     height: 13rem;
     align-items: center;
-    border-radius: 5%;        
 }
 
 /* Footer */
 
 footer{
-    background-color: rgba(221, 221, 221, 0.895);
+    margin-top:-5%;
+    background-color: rgb(255, 255, 255);
 }
 .social{
     display: flex;
